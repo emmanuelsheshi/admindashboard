@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100dvh;
+}
+.maincontainer {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+}
+.sidebar {
+  height: 100%;
+  width: 20%;
+  background-color: #1992d3;
+}
+.maincontent {
+  height: 100%;
+  width: 80%;
+  background-color: #e2e8f0;
+}
