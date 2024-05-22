@@ -3,14 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admindashboard</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="maincontainer">
-      <div class="sidebar"></div>
-      <div class="maincontent"></div>
-      <div class="header"></div>
+      <div class="sidebar">
+        <h2 class="sidebar-title">Dashboard</h2>
+        <ul class="sidebar-menu">
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Messages</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communities</li>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="header">
+          <div class="search-bar">
+            &#128269
+            <input type="text" placeholder="Search..." />
+          </div>
+          <div class="profile-info">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+            <span class="username">Eze Opara (@Eze)</span>
+          </div>
+          <div class="header-buttons">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+          </div>
+        </div>
+        <div class="maincontent">
+          <div class="projects-section">
+            <h2>Your Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin
+                  nibh erat, id facilisis felis accumsan nec.
+                </p>
+              </div>
+              <div class="project-card">
+                <h3>Less Cool Project</h3>
+                <p>
+                  Nullam condimentum ipsum ut lectus vehicula consectetur.
+                  Quisque sed dolor tincidunt, consectetur sapien et, facilisis
+                  dolor.
+                </p>
+              </div>
+              <div class="project-card">
+                <h3>Impossible App</h3>
+                <p>
+                  In hac habitasse platea dictumst. Vivamus dictum rutrum arcu,
+                  a placerat velit sagittis id.
+                </p>
+              </div>
+              <div class="project-card">
+                <h3>Easy Peasy App</h3>
+                <p>
+                  Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
+                  urna eget accumsan aliquam.
+                </p>
+              </div>
+              <div class="project-card">
+                <h3>Ad Blocker</h3>
+                <p>
+                  Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus
+                  vel, pharetra hendrerit felis.
+                </p>
+              </div>
+              <div class="project-card">
+                <h3>Money Maker</h3>
+                <p>
+                  Praesent convallis, libero quis congue elementum, nunc ante
+                  faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+          <div class="announcements-section">
+            <h2>Announcements</h2>
+            <div class="announcement">Site Maintenance</div>
+            <div class="announcement">Community Share Day</div>
+            <div class="announcement">Updated Privacy Policy</div>
+          </div>
+          <div class="trending-section">
+            <h2>Trending</h2>
+            <div class="trending-item">@tegan - World Peace Builder</div>
+            <div class="trending-item">@morgan - Super Cool Project</div>
+            <div class="trending-item">@kendall - Life Changing App</div>
+            <div class="trending-item">@alex - No Traffic Maker</div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
